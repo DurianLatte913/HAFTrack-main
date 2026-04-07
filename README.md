@@ -36,6 +36,26 @@ Our tracker supports the following standard RGBT tracking datasets. Please downl
 - RGBT234
 - LasHeR
 - VTUAV
+Put the tracking datasets in ./data. It should look like this:
+```bash
+${PROJECT_ROOT}
+ -- data
+     -- RGBT210
+         |-- afterrain
+         |-- aftertree
+         ...
+     -- RGBT234
+         |-- green
+         |-- glass
+         ...
+     -- LasHeR
+         |-- train
+         |-- test
+     -- VTUAV
+         |-- train
+         |-- test
+         ...
+```
 
 ## Train
 Download OSTrack pretrained model from [SOTPretrained](https://pan.baidu.com/s/1wYtUuYNmiHBinl0ggw8InQ?pwd=u5nc) and put it in `./pretrained/`.
