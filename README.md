@@ -64,7 +64,7 @@ Download pretrained model from [OSTrack](https://github.com/botaoye/OSTrack) or 
 Run the training script:
 ```bash
 cd HAFTrack-main
-python utils/make_pretrained.py             # if you download model weight from ostrack
+python ./Pretrained.py             # if you download model weight from ostrack
 bash ./experiments/haftrack/train.sh
 ```
 The trained models will be saved in the `./checkpoints/` directory.
