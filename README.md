@@ -36,6 +36,7 @@ Our tracker supports the following standard RGBT tracking datasets. Please downl
 - RGBT234
 - LasHeR
 - VTUAV
+
 Put the tracking datasets in ./data. It should look like this:
 ```bash
 ${PROJECT_ROOT}
