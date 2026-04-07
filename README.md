@@ -59,7 +59,7 @@ ${PROJECT_ROOT}
 ```
 
 ## Train
-Download pretrained model from [OSTrack]() or from [SOTPretrained](https://pan.baidu.com/s/1wYtUuYNmiHBinl0ggw8InQ?pwd=u5nc) and put it in `./pretrained/`.
+Download pretrained model from [OSTrack](https://github.com/botaoye/OSTrack) or from [SOTPretrained](https://pan.baidu.com/s/1wYtUuYNmiHBinl0ggw8InQ?pwd=u5nc) and put it in `./pretrained/`.
 Run the training script:
 ```bash
 cd HAFTrack-main
