@@ -22,12 +22,32 @@ Our code has been tested in the following environment:
 * CUDA >= 11.3
 
 ### Install Dependencies
-First, clone this repository and navigate to the project directory:
+First, clone this repository：
 ```bash
 git clone https://github.com/DurianLatte913/HAFTrack-main.git
-cd HAFTrack-main
 ```
 Install the required packages using the provided `requirements.txt`:
 ```bash
 pip install -r requirements.txt
 ```
+
+
+## Dataset Preparation
+Our tracker supports the following standard RGBT tracking datasets. Please download the datasets and organize them according to the specified directory structure.
+### Supported Datasets
+- RGBT210
+- RGBT234
+- LasHeR
+- VTUAV
+
+
+## Train
+Download OSTrack pretrained model from and put it in `./pretrained/`
+Run the training script:
+```bash
+cd HAFTrack-main
+bash ./experiments/haftrack/train.sh
+```
+The trained models will be saved in the `./checkpoints/` directory.
+
+
