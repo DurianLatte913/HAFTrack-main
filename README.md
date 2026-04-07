@@ -56,7 +56,6 @@ ${PROJECT_ROOT}
      -- VTUAV
          |-- train
          |-- test
-         ...
 ```
 
 ## Train
