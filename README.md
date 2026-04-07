@@ -89,3 +89,11 @@ We provide the pre-trained weights of our tracker for quick testing. Download th
 
 - Google Drive: [Weights and Results](https://drive.google.com/drive/folders/1vdBTliSHx1RALrUjWF12R-TPf_gyW6o2?usp=drive_link)
 
+## Acknowledgements
+We would like to thank the authors of the following datasets and open-source projects for their valuable contributions:
+
+- GTOT, VOT-RGBT2019, LasHeR, and RGBT234 datasets.
+
+- PyTorch, OpenCV, and other open-source libraries.
+
+- OSTrack
