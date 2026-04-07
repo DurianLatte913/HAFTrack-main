@@ -9,10 +9,8 @@
 ![Image Caption](imgs/overall.png)
 This repository contains the official implementation of the RGBT (RGB-Thermal) object tracking algorithm proposed in our paper "HAFTrack:Heterogeneous Asymmetric Fusion in RGBT Tracking". Our method proposed a novel multimodal tracking framework, termed HAFTrack, which is specifically designed to accommodate the intrinsic characteristics of RGB and  TIR modalities as well as the fundamental requirements of RGBT tracking, thereby fully exploiting the high-value information provided by both modalities.
 
-
 ## Device
 We trained and tested our model on four NVIDIA RTX 4090 GPUs.
-
 
 ## Environment Configuration
 ### Prerequisites
@@ -31,7 +29,6 @@ Install the required packages using the provided `requirements.txt`:
 pip install -r requirements.txt
 ```
 
-
 ## Dataset Preparation
 Our tracker supports the following standard RGBT tracking datasets. Please download the datasets and organize them according to the specified directory structure.
 ### Supported Datasets
@@ -39,7 +36,6 @@ Our tracker supports the following standard RGBT tracking datasets. Please downl
 - RGBT234
 - LasHeR
 - VTUAV
-
 
 ## Train
 Download OSTrack pretrained model from and put it in `./pretrained/`.
@@ -51,7 +47,7 @@ bash ./experiments/haftrack/train.sh
 The trained models will be saved in the `./checkpoints/` directory.
 
 ## Test
-To test the model, you can use our pre-trained weights. Please place them in `./output/`.
+To test the model, you can use our pre-trained weights.
 ```bash
 cd HAFTrack-main
 bash ./experiments/haftrack/test210.sh      #test RGBT210
@@ -60,5 +56,14 @@ bash ./experiments/haftrack/test_lasher.sh  #test LasHeR
 bash ./experiments/haftrack/testuav.sh      #test VTUAV
 ```
 
+## Evaluation
+You can use the evaluation script provided in `./eval_tracker/` to evaluate the metrics on RGBT210, RGBT234, and LasHeR. For the VTUAV dataset, we recommend using the official toolkit.
 
+## Pre-trained Weights and Results
+We provide the pre-trained weights of our tracker for quick testing. Download the weights from the following links:
 
+- Baidu Cloud: Link
+
+- Google Drive: Link
+
+Place the weights in the `./output/checkpoints/` directory.
