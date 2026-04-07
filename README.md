@@ -42,12 +42,23 @@ Our tracker supports the following standard RGBT tracking datasets. Please downl
 
 
 ## Train
-Download OSTrack pretrained model from and put it in `./pretrained/`
+Download OSTrack pretrained model from and put it in `./pretrained/`.
 Run the training script:
 ```bash
 cd HAFTrack-main
 bash ./experiments/haftrack/train.sh
 ```
 The trained models will be saved in the `./checkpoints/` directory.
+
+## Test
+To test the model, you can use our pre-trained weights. Please place them in `./output/`.
+```bash
+cd HAFTrack-main
+bash ./experiments/haftrack/test210.sh      #test RGBT210
+bash ./experiments/haftrack/test234.sh      #test RGBT234
+bash ./experiments/haftrack/test_lasher.sh  #test LasHeR
+bash ./experiments/haftrack/testuav.sh      #test VTUAV
+```
+
 
 
