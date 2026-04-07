@@ -1,7 +1,7 @@
 # HAFTrack: Official Code for "HAFTrack:Heterogeneous Asymmetric Fusion in RGBT Tracking"
 **Author**: {DurianLatte913} | {University of Electronic Science and Technology of China}
 
-**Paper**: {HAFTrack}
+**Paper**: {HAFTrack:Heterogeneous Asymmetric Fusion in RGBT Tracking}
 
 **GitHub**: https://github.com/DurianLatte913/HAFTrack-main
 
