@@ -38,7 +38,7 @@ Our tracker supports the following standard RGBT tracking datasets. Please downl
 - VTUAV
 
 ## Train
-Download OSTrack pretrained model from and put it in `./pretrained/`.
+Download OSTrack pretrained model from [SOTPretrained](https://pan.baidu.com/s/1wYtUuYNmiHBinl0ggw8InQ?pwd=u5nc) and put it in `./pretrained/`.
 Run the training script:
 ```bash
 cd HAFTrack-main
