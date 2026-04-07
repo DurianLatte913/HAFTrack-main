@@ -84,7 +84,8 @@ You can use the evaluation script provided in `./eval_tracker/` to evaluate the 
 ## Pre-trained Weights and Results
 We provide the pre-trained weights of our tracker for quick testing. Download the weights from the following links:
 
-- Baidu Cloud: Link
+- Baidu Cloud: [Weights and Results](https://pan.baidu.com/s/1x0lf_7GIDRwtXF_ZacOFXg?pwd=tjd1) 
+
 
 - Google Drive: Link
 
