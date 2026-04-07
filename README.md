@@ -59,16 +59,17 @@ ${PROJECT_ROOT}
 ```
 
 ## Train
-Download OSTrack pretrained model from [SOTPretrained](https://pan.baidu.com/s/1wYtUuYNmiHBinl0ggw8InQ?pwd=u5nc) and put it in `./pretrained/`.
+Download pretrained model from [OSTrack]() or from [SOTPretrained](https://pan.baidu.com/s/1wYtUuYNmiHBinl0ggw8InQ?pwd=u5nc) and put it in `./pretrained/`.
 Run the training script:
 ```bash
 cd HAFTrack-main
+python utils/make_pretrained.py             # if you download model weight from ostrack
 bash ./experiments/haftrack/train.sh
 ```
 The trained models will be saved in the `./checkpoints/` directory.
 
 ## Test
-To test the model, you can use our pre-trained weights.
+To test the model, you can use our pre-trained weights. Place the weights in the ./output/checkpoints/ directory.
 ```bash
 cd HAFTrack-main
 bash ./experiments/haftrack/test210.sh      #test RGBT210
@@ -87,4 +88,3 @@ We provide the pre-trained weights of our tracker for quick testing. Download th
 
 - Google Drive: Link
 
-Place the weights in the `./output/checkpoints/` directory.
