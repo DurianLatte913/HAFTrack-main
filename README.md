@@ -52,16 +52,6 @@ ${PROJECT_ROOT}
          |-- test
 ```
 
-## Train
-Download pretrained model from [OSTrack](https://github.com/botaoye/OSTrack) or from [SOTPretrained](https://pan.baidu.com/s/1wYtUuYNmiHBinl0ggw8InQ?pwd=u5nc) and put it in `./pretrained/`.
-Run the training script:
-```bash
-cd HAFTrack-main
-python ./Pretrained.py             # if you download model weight from ostrack
-bash ./experiments/haftrack/train.sh
-```
-The trained models will be saved in the `./checkpoints/` directory.
-
 ## Test
 To test the model, you can use our pre-trained weights. Place the weights in the ./output/checkpoints/ directory.
 ```bash
