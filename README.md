@@ -86,7 +86,7 @@ We provide the pre-trained weights of our tracker for quick testing. Download th
 ## Acknowledgements
 We would like to thank the authors of the following datasets and open-source projects for their valuable contributions:
 
-- GTOT, VOT-RGBT2019, LasHeR, and RGBT234 datasets.
+- RGBT210, RGBT234, LasHeR, and VTUAV.
 
 - PyTorch, OpenCV, and other open-source libraries.
 
