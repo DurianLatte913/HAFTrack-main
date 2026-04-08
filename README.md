@@ -1,4 +1,5 @@
 # "HAFTrack:Heterogeneous Asymmetric Fusion in RGBT Tracking"
+> **📢 Note:** The testing code and pre-trained weights are now available! The training code will be released upon the acceptance of our paper. Stay tuned!
 ## Introduction
 <img src="imgs/overall.png" width="80%">  
 
@@ -51,6 +52,9 @@ ${PROJECT_ROOT}
          |-- train
          |-- test
 ```
+
+## Train
+⏳ **Coming Soon!** The full training code and scripts will be open-sourced upon the acceptance of our paper.
 
 ## Test
 To test the model, you can use our pre-trained weights. Place the weights in the ./output/checkpoints/ directory.
