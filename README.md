@@ -33,7 +33,7 @@ Our tracker supports the following standard RGBT tracking datasets. Please downl
 - LasHeR
 - VTUAV
 
-Put the tracking datasets in ./data. It should look like this:
+Put the tracking datasets in `./data`. It should look like this:
 ```bash
 ${PROJECT_ROOT}
  -- data
