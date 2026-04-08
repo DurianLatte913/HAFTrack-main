@@ -67,7 +67,7 @@ bash ./experiments/haftrack/testuav.sh      #test VTUAV
 ```
 
 ## Evaluation
-You can use the evaluation script provided in `./eval_tracker/` to evaluate the metrics on RGBT210, RGBT234, and LasHeR. For the VTUAV dataset, we recommend using the official toolkit.
+You can use the evaluation script provided in './eval_tracker/' to evaluate the metrics on RGBT210, RGBT234, and LasHeR. For the VTUAV dataset, we recommend using the official toolkit.
 
 ## Pre-trained Weights and Results
 We provide the pre-trained weights of our tracker for quick testing. Download the weights from the following links:
