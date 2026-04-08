@@ -33,7 +33,7 @@ Our tracker supports the following standard RGBT tracking datasets. Please downl
 - LasHeR
 - VTUAV
 
-Put the tracking datasets in `./data`. It should look like this:
+Put the tracking datasets in `./data/`. It should look like this:
 ```bash
 ${PROJECT_ROOT}
  -- data
@@ -57,7 +57,7 @@ ${PROJECT_ROOT}
 ⏳ **Coming Soon!** The full training code and scripts will be open-sourced upon the acceptance of our paper.
 
 ## Test
-To test the model, you can use our pre-trained weights. Place the weights in the `./output/checkpoints/train/haftrack` directory.
+To test the model, you can use our pre-trained weights. Place the weights in the `./output/checkpoints/train/haftrack/` directory.
 ```bash
 cd HAFTrack-main
 bash ./experiments/haftrack/test210.sh      #test RGBT210
