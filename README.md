@@ -57,7 +57,7 @@ ${PROJECT_ROOT}
 ⏳ **Coming Soon!** The full training code and scripts will be open-sourced upon the acceptance of our paper.
 
 ## Test
-To test the model, you can use our pre-trained weights. Place the weights in the ./output/checkpoints/ directory.
+To test the model, you can use our pre-trained weights. Place the weights in the `./output/checkpoints/` directory.
 ```bash
 cd HAFTrack-main
 bash ./experiments/haftrack/test210.sh      #test RGBT210
@@ -67,7 +67,7 @@ bash ./experiments/haftrack/testuav.sh      #test VTUAV
 ```
 
 ## Evaluation
-You can use the evaluation script provided in './eval_tracker/' to evaluate the metrics on RGBT210, RGBT234, and LasHeR. For the VTUAV dataset, we recommend using the official toolkit.
+You can use the evaluation script provided in `./eval_tracker/` to evaluate the metrics on RGBT210, RGBT234, and LasHeR. For the VTUAV dataset, we recommend using the official toolkit.
 
 ## Pre-trained Weights and Results
 We provide the pre-trained weights of our tracker for quick testing. Download the weights from the following links:
